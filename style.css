@@ -1,0 +1,55 @@
+/* ===== ****** ==== general css ===== ****** ==== */
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Arima', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+.player-section {
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-bottom:50px ;
+    height: 540px;
+    width: 1200px;
+    background-color: rgb(26, 24, 24);
+    overflow: hidden;
+    border-radius: 20px;
+
+}
+.player-area {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.player-text {
+    color: aliceblue;
+    margin-top:150px;
+    margin-left: 70px;
+}
+.player-text h1 {
+    font-size: 55px;
+    font-weight: 700;
+}
+.player-text p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.player-button {
+    font-size: 18px;
+    color:aliceblue;
+    padding: 13px 17px;
+    background-color: rgb(224, 56, 56);
+    border: none;
+    border-radius: 7px;
+}
+.player-button i {
+    margin-left: 7px;
+}
+.player-image img{
+    width:120%;
+    margin-top: 140px;
+}
