@@ -1,5 +1,5 @@
 /* ===== ****** ==== general css ===== ****** ==== */
-*{
+* {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
@@ -8,10 +8,12 @@
     font-family: 'Poppins', sans-serif;
 
 }
+
+/*===== ****** ==== player section css ===== ****** ==== */
 .player-section {
     margin-top: 50px;
     margin-left: 80px;
-    margin-bottom:50px ;
+    margin-bottom: 50px;
     height: 540px;
     width: 1200px;
     background-color: rgb(26, 24, 24);
@@ -19,37 +21,195 @@
     border-radius: 20px;
 
 }
+
 .player-area {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
+
 .player-text {
     color: aliceblue;
-    margin-top:150px;
+    margin-top: 150px;
     margin-left: 70px;
 }
+
 .player-text h1 {
     font-size: 55px;
     font-weight: 700;
 }
+
 .player-text p {
     font-size: 20px;
     font-weight: 500;
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 .player-button {
     font-size: 18px;
-    color:aliceblue;
+    color: aliceblue;
     padding: 13px 17px;
     background-color: rgb(224, 56, 56);
     border: none;
     border-radius: 7px;
 }
+
 .player-button i {
     margin-left: 7px;
 }
-.player-image img{
-    width:120%;
+
+.player-image img {
+    width: 120%;
     margin-top: 140px;
 }
+
+/* ===== ****** ==== boxer-area section ===== ****** ==== */
+
+.nav-menu {
+    height: 270px;
+    width: 280px;
+    background: #000;
+    border-radius: 15px;
+}
+
+.item {
+    font-size: 13px;
+    height: 45px;
+    width: 200px;
+    color: rgb(77, 74, 74);
+    background-color: rgb(251, 252, 255);
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 35px;
+
+}
+
+.menu {
+    padding-top: 25px;
+}
+
+.item h2 {
+    padding-top: 10px;
+}
+
+#blog {
+    color: aliceblue;
+    background-color: rgb(228, 57, 57);
+}
+
+/*====== ****** design of boxes area ***** ====== */
+.boxer-section {
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    height: auto;
+    width: 1200px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.box img {
+    height: 175px;
+    width: 255px;
+}
+
+.box {
+    height: 365px;
+    width: 315px;
+}
+
+.mini-box h2 {
+    height: 25px;
+    width: 80px;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 3px;
+    margin-bottom: 4px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+.mini-box P {
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 6px;
+    padding-bottom: 3px;
+}
+
+.box {
+    height: 300px;
+    width: 257px;
+    border: 1px solid gray;
+    border-radius: 7px;
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 25px;
+    row-gap: 30px;
+    margin-left: 50px;
+}
+
+.boxer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-text {
+    padding: 15px;
+}
+/* others page css */
+#box-routine {
+    
+}
+/* ==========****** ==== footer section css ====********========== */
+.footer-area {
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(27, 21, 21);
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+
+ul li {
+    list-style: none;
+}
+
+.menu-area h1 {
+    color: orangered;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 40px;
+}
+.footer-icon i {
+    color: aliceblue;
+    font-size: 25px;
+    padding: 10px;
+    
+}
+.footer-icon {
+    text-align: center;
+    margin-top: 40px;
+}
+/*========================= Total CSS End Here ======================= */
+/*================ responsive part start here =====================*/
+/* ***************** tablet version *****************/
